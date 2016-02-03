@@ -1,0 +1,66 @@
+/*
+	Minimaxing by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Desktop (>= 480px)                                                            */
+/*********************************************************************************/
+
+/* Basic */
+
+	body {
+		min-width: 1200px;
+	}
+
+	section, article {
+		margin: 0 0 40px 0;
+	}
+
+	section:last-child, article:last-child {
+		margin-bottom: 0;
+	}
+
+	section.left-content {
+		padding-right: 30px;
+	}
+
+	section.right-content {
+		padding-left: 30px;
+	}
+
+	section.middle-content {
+		padding: 0 30px 0 30px;
+	}
+
+	ul.small-image-list img {
+		max-height: 100px; 
+		max-width: 125px;
+		/* width: 178px; */
+	}
+
+	ul.small-image-list-side img {
+		max-height: 100px; 
+		max-width: 100px;
+	}
+
+	ul.big-image-list-partners img {
+		width: 325px;
+	}
+	ul.big-image-list img {
+		width: 178px;
+	}
+
+/* Reusable */
+
+	.blog-post-image {
+		width: 100%;
+	}
+
+/* Main */
+	#main {
+		background: #fff;
+		padding: 1em 0;
+	}
+
