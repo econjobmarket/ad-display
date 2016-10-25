@@ -149,7 +149,7 @@ function createAdsDetailInfoPage(adObject) {
 		newPage += '<p>' + adObject.adtext +'</p>' ;
 			
 		// Link to apply
-		adlink = 'https://econjobmarket.org/Apply/PosApp.php?' + adObject.posid;
+		adlink = 'https://econjobmarket.org/apply/PosApp.php?' + adObject.posid;
 		newPage += '<br>' ;
 		newPage += '<span>' ;
 		newPage += '<h4><a href="' + adlink + '">Submit Application</a></h4>' ;
