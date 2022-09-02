@@ -110,7 +110,7 @@ function createAdsDetailInfoPage(adObject) {
 		imageLink = 'https://backend.econjobmarket.org/ejm_setup/readgif/' + adObject.oid;
 
 		newPage += '<p align ="center"><span>' + '<img src="' + imageLink + '" alt="" '+
-						'style="max-height: 75px; max-width: 100x;"' + 
+						'style="max-width: 80px;"' + 
 					' title="' + adObject.name + ' (' + adObject.department + ')' + '">' + '</span></p>';
 		newPage += '<br /> ';
 
