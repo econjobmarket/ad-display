@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Current Job Posting</title>
+<link rel="shortcut icon" href="https://econjobmarket.org/favicon.ico" />
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/skel.min.js"></script>
+<script src="../js/skel-layers.min.js"></script>
+<script src="../js/init.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+
+<script type="text/javascript" src="my_ads_ajax.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+
+
+<noscript>
+<link rel="stylesheet" type="text/css" media="" href="css/skel.css" />
+<link rel="stylesheet" type="text/css" media="" href="css/style.css" />
+<link rel="stylesheet" type="text/css" media="" href="css/style-desktop.css" />
+</noscript>
+		
+
+</head>
+
+<body>
+<script>
+  var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("theads").innerHTML = parseResults(this.responseText);
+    }
+  };
+	xhttp.open("GET", "https://backend.econjobmarket.org/data/zz_public/json/Ads", true);
+xhttp.send(); 
+
+</script>
+
+
+    <div id="theads">
+
+    </div>
+
+
+</body>
+</html>
+
